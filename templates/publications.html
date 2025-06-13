@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ page.title }}
+{% endblock %}
+
+{% block content %}
+<section class='section'>
+    <div class='container'>
+      <div class="content">
+
+
+		{{ page.content | safe }}
+
+		{% set data = load_data(path="static/self.bib", format="bibtex") %}
+
+		<table>
+		{% for bib in data.bibliographies %}
+		<tr>
+
+
+		<td>
+		<b>{{ bib.tags.title | replace(from="{", to="") | replace(from="}", to="") }}</b> <br>
+		<i>{{ bib.tags.author | replace(from="{", to="") | replace(from="}", to="") }}</i> <br>
+		{% if bib.tags.booktitle %}
+		{{ bib.tags.booktitle | replace(from="{", to="") | replace(from="}", to="") }}
+		{% elif bib.tags.archiveprefix and bib.tags.journal and bib.tags.eprint %}
+		{{ bib.tags.archiveprefix }} - {{ bib.tags.journal }}: {{ bib.tags.eprint }}
+		{% elif bib.tags.journal %}
+		{{ bib.tags.journal | replace(from="{", to="") | replace(from="}", to="") }}
+		{% elif bib.tags.school %}
+		{{ bib.tags.school }}
+		{% endif %}
+
+
+		{% if bib.tags.note %}
+		<br>
+		{% if bib.tags.note is containing("Award") or bib.tags.note is containing("Winner") or bib.tags.note is containing("Honorable Mention") %}
+		<i class="fas fa-award fa-lg"></i>
+		{% endif %}
+
+		{{ bib.tags.note }}
+
+
+		{% endif %}
+
+		</td>
+
+		<td>
+		{% if bib.tags.doi %}
+		<a href="https://doi.org/{{ bib.tags.doi | replace(from="\_", to="_") }}" target="_blank"><i class="ai ai-doi ai-2x"></i></a>
+		{% endif %}
+		</td>
+
+		<td>
+		{% if bib.tags.biburl %}
+		<a href="{{ bib.tags.biburl | replace(from="\_", to="_") | replace(from=".bib", to="") }}" target="_blank"><i class="ai ai-dblp ai-2x"></i></a>
+		{% endif %}
+		</td>
+
+		<td>
+		{% if bib.tags.url %}
+		<a href="{{ bib.tags.url | replace(from="\_", to="_") }}" target="_blank"><i class="ai ai-open-access ai-2x"></i></a>
+		{% endif %}
+		</td>
+
+		</tr>
+		{% endfor %}
+		</table>
+
+      </div>
+    </div>
+</section>
+{% endblock %}
