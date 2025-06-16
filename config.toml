@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://allietran.com/"
+base_url = "https://allietran.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -45,9 +45,9 @@ google_scholar = "FWVnlZkAAAAJ"
 dblp = "267/2642"
 
 [extra.favicon]
-favicon_16x16 = "/icons/favicon-16x16.png"
-favicon_32x32 = "/icons/favicon-32x32.png"
-webmanifest = "/icons/site.webmanifest"
-apple_touch_icon = "/icons/apple-touch-icon.png"
-android_chrome_192x192 = "/icons/android-chrome-192x192.png"
-android_chrome_512x512 = "/icons/android-chrome-512x512.png"
+favicon_16x16 = "/favicon/favicon-16x16.png"
+favicon_32x32 = "/favicon/favicon-32x32.png"
+webmanifest = "/favicon/site.webmanifest"
+apple_touch_icon = "/favicon/apple-touch-icon.png"
+android_chrome_192x192 = "/favicon/android-chrome-192x192.png"
+android_chrome_512x512 = "/favicon/android-chrome-512x512.png"

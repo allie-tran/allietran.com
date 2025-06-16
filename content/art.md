@@ -4,7 +4,7 @@ date=2025-06-12
 template="plain.html"
 +++
 
-# My Arts
+# My Artworks
 
 
 <figure class="text-center mb-4">

@@ -21,7 +21,7 @@ Although I prefer to be called Allie, my Vietnamese name is Duyên, which means 
 </p>
 </div>
 <figure class="column is-third">
-  <img src="/images/duyen.jpg" alt="Duyen" width="150" class="image is-rounded">
+  <img src="/images/duyen.jpg" alt="Duyen" width="200" class="image" style="border-radius: 8px;">
   <figcaption>Kanji for my name</figcaption>
 </figure>
 
