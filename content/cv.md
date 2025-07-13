@@ -6,21 +6,21 @@ template="plain.html"
 
 # Curriculum Vitae
 
-## Employment History
+### Employment History
 
 | | |
 |----|----|
 | 10.2024 - present | Postdoctoral Researcher, Dublin City University, Ireland |
 | 10.2023 - 03.2024 | Research Assistant, Dublin City University, Ireland |
 
-## Education
+### Education
 
 | | |
 |----|----|
 | 2019 - 2024 | PhD, School of Computing, Dublin City University, Ireland |
 | 2014 - 2018 | BSc in Mathematics and Computer Science, Ho Chi Minh City University of Science, Vietnam |
 
-## Organized Conferences / Workshops / Tutorials
+### Organized Conferences / Workshops / Tutorials
 
 | | | |
 |---|---|---|
@@ -37,7 +37,7 @@ template="plain.html"
 | 2024 | Workshop | Co-Organiser, [AIQAM Workshop](https://aiqam.github.io/) at ACM ICMR 2024. |
 | 2023 | Workshop | Co-Organiser, [NTCIR-17 Lifelog](http://ntcir-lifelog.computing.dcu.ie/) collaborative benchmarking exercises. |
 
-## Teaching Activites
+### Teaching Activites
 
 | | | | | |
 |----|----|----|----|----|

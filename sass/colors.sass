@@ -1,0 +1,44 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap')
+// Inconsolata
+// Rubik Mono
+
+$foreground-color: #F8F8F2
+$text-color: #44475A
+$family-sans-serif: "Figtree", sans-serif
+$heading-font: "Figtree", sans-serif
+
+
+body
+    color: $text-color
+    font-family: $family-sans-serif
+    font-size: 1.1rem
+
+
+h1, h2, h3, h4, h5, h6
+    color: #6272A4 !important
+    font-family: $heading-font
+
+.navbar-item
+    color: white !important
+
+.navbar-item:focus, .navbar-item:hover
+    color: #F8F8F2 !important
+
+a.navbar-item,
+.navbar-link
+  cursor: pointer
+  &:focus,
+  &:focus-within,
+  &:hover,
+  &.is-active
+    background-color: $foreground-color !important
+    color: $text-color !important
+
+
+.subtitle
+    color: #6272A4
+
+.has-background-white
+    background-color: $foreground-color !important
+
