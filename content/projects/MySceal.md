@@ -9,7 +9,8 @@ date = "2023-10-01"
 
 # MyScéal and its Versions
 
-MyScéal is a lifelog search engine that allows users to search a lifelog of their past experiences. It is designed to help users find and recall personal memories by searching through a collection of photos, videos, and other digital artifacts. The system uses advanced search techniques to enable users to query their lifelog data effectively.
+MyScéal (pronounced "My-Sh-cale" - Irish for "My Story")
+is a lifelog search engine that allows users to search a lifelog of their past experiences. It is designed to help users find and recall personal memories by searching through a collection of photos, videos, and other digital artifacts. The system uses advanced search techniques to enable users to query their lifelog data effectively.
 
 There are 3 versions of MyScéal:
 - **MyScéal**: The original version of the lifelog search engine.
