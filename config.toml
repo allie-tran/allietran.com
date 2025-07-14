@@ -34,8 +34,8 @@ navbar_items = [
 
 [extra.author]
 name = "Allie Tran"
-avatar = "/images/17 copy.jpg"
 avatar2 = "/images/me-dracula.png"
+avatar = "/images/17 copy.jpg"
 
 [extra.social]
 github = "allie-tran"
