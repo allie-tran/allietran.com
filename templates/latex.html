@@ -1,0 +1,55 @@
+{# macros/latex.html #}
+{% macro format(text) %}
+    {% set text = text | replace(from="{", to="") | replace(from="}", to="") %}
+    {# German Umlauts and Eszett #}
+    {% set text = text | replace(from='\"o', to="ö") | replace(from='\"O', to="Ö")
+                       | replace(from='\"u', to="ü") | replace(from='\"U', to="Ü")
+                       | replace(from='\"a', to="ä") | replace(from='\"A', to="Ä")
+                       | replace(from='\"s', to="ß") %}
+    {# Acute Accents #}
+    {% set text = text | replace(from="\'e", to="é") | replace(from="\'E", to="É")
+                       | replace(from="\'y", to="ý") | replace(from="\'Y", to="Ý")
+                       | replace(from="\'o", to="ó") | replace(from="\'O", to="Ó")
+                       | replace(from="\'a", to="á") | replace(from="\'A", to="Á") %}
+    {# Grave Accents #}
+    {% set text = text | replace(from="\`y", to="ỳ") | replace(from="\`Y", to="Ỳ")
+                       | replace(from="\`o", to="ò") | replace(from="\`O", to="Ò")
+                       | replace(from="\`u", to="ù") | replace(from="\`U", to="Ù")
+                       | replace(from="\`a", to="à") | replace(from="\`A", to="À")
+                       | replace(from="\`e", to="è") | replace(from="\`E", to="È")
+                       | replace(from="\`i", to="ì") | replace(from="\`I", to="Ì") %}
+    {# Circumflex Accents #}
+    {% set text = text | replace(from="\^a", to="â") | replace(from="\^A", to="Â")
+                       | replace(from="\^e", to="ê") | replace(from="\^E", to="Ê")
+                       | replace(from="\^i", to="î") | replace(from="\^I", to="Î")
+                       | replace(from="\^o", to="ô") | replace(from="\^O", to="Ô")
+                       | replace(from="\^u", to="û") | replace(from="\^U", to="Û") %}
+    {# Other Specific Characters #}
+    {% set text = text | replace(from="\TH", to="Þ") | replace(from="\th", to="þ")
+                       | replace(from="\c{C}", to="Ç") | replace(from="\c{c}", to="ç")
+                       | replace(from="\~{n}", to="ñ") | replace(from="\~{N}", to="Ñ")
+                       | replace(from="\v{s}", to="š") | replace(from="\v{S}", to="Š")
+                       | replace(from="\v{z}", to="ž") | replace(from="\v{Z}", to="Ž") %}
+    {# More Accents #}
+    {% set text = text | replace(from="\H{o}", to="ő") | replace(from="\H{O}", to="Ő")
+                       | replace(from="\={o}", to="ō") | replace(from="\={O}", to="Ō")
+                       | replace(from="\.{o}", to="ȯ") | replace(from="\.{O}", to="Ȯ") %}
+    {# Special Letters #}
+    {% set text = text | replace(from="\l{}", to="ł") | replace(from="\L{}", to="Ł")
+                       | replace(from="\o{}", to="ø") | replace(from="\O{}", to="Ø") %}
+    {# Escaped Punctuation - add as needed #}
+    {% set text = text | replace(from="\\%", to="%") | replace(from="\\$", to="$")
+                       | replace(from="\\&", to="&") | replace(from="\\#", to="#")
+                       | replace(from="\\_", to="_") | replace(from="\\{", to="{")
+                       | replace(from="\\}", to="}") | replace(from="\\textbackslash", to="\\") %}
+    {# Other Text Symbols - add as needed #}
+    {% set text = text | replace(from="\textregistered", to="®")
+                       | replace(from="\textcopyright", to="©")
+                       | replace(from="\texttrademark", to="™")
+                       | replace(from="\textbullet", to="•")
+                       | replace(from="\textemdash", to="—")
+                       | replace(from="\textendash", to="–") %}
+    {# Specific Hardcoded Replacement (consider making dynamic if possible) #}
+    {% set text = text | replace(from="Mejzl\'\ik", to="Mejzlík") %}
+    {{ text | trim }} {# trim to remove leading/trailing whitespace after replacements #}
+{% endmacro format %}
