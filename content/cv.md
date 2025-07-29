@@ -10,7 +10,9 @@ template="plain.html"
 
 | | |
 |----|----|
-| 10.2024 - present | Postdoctoral Researcher, Dublin City University, Ireland |
+| 08.2024 - present | Postdoctoral Researcher, Dublin City University, Ireland |
+| 04.2024 - 07.2025 | Postdoctoral Researcher, Dublin City University, Ireland |
+| 10.2024 - 04.2025 | Postdoctoral Researcher, Dublin City University, Ireland |
 | 10.2023 - 03.2024 | Research Assistant, Dublin City University, Ireland |
 
 ### Education
@@ -31,7 +33,7 @@ template="plain.html"
 | 2026 | Workshop | Co-Organiser, NTCIR-19 CAMEO: Composed Access to Multimodal E-commerce Objects. |
 | 2026 | Workshop | Co-Organiser, [NTCIR-19 Lifelog](http://ntcir-lifelog.computing.dcu.ie/) collaborative benchmarking exercises. |
 | 2025 | Workshop | Co-Organiser, [1st CASTLE Multimodal Analytics Challenge](https://castle-dataset.github.io/) at ACM MM 2025. |
-| 2025 | Workshop | Co-Organiser, [AIQAM](https://aiqam.github.io/) (AI-Enhanced Quality Assessment of Multimedia) at ACM MM 2025. |
+| 2025 | Workshop | Co-Organiser, [AIQAM'25](https://aiqam.github.io/) (The 2nd AI-Enhanced Quality Assessment of Multimedia) at ACM MM 2025. |
 | 2025 | Workshop | Co-Organiser, [LSC'25 - Lifelog Search Challenge](http://lifelogsearch.org/lsc/) workshop at ACM ICMR 2025. |
 | 2025 | Workshop | Co-Organiser, [NTCIR-18 Lifelog](http://ntcir-lifelog.computing.dcu.ie/) collaborative benchmarking exercises. |
 | 2024 | Workshop | Co-Organiser, [AIQAM Workshop](https://aiqam.github.io/) at ACM ICMR 2024. |
