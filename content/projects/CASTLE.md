@@ -1,6 +1,6 @@
 +++
 title = "CASTLE"
-description = "Advancing the state of the art in multimodal understanding"
+description = "Dataset: Advancing the state of the art in multimodal understanding"
 weight = 4
 template="plain.html"
 date = "2025-01-01"

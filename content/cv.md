@@ -27,8 +27,9 @@ template="plain.html"
 | | | |
 |---|---|---|
 | 2025 | Conference | Conference Chair, Interactive Arts Track co-Chair, [ACM MM 2025](https://acmmm2025.org/), The 33rd ACM International Conference on Multimedia, Dublin, Ireland. |
-| 2025 | Conference | Local Organising co-Chair, [CBMI 2025](http://www.cbmi2025.org/), The 22nd International Conference on Content-based Multimedia Indexing, Dublin, Ireland. |
 | 2025 | Conference | Local Organising co-Chair, [MediaEval 2025](https://multimediaeval.github.io/), Multimedia Evaluation Benchmark, Dublin, Ireland. |
+| 2025 | Conference | Local Organising co-Chair, [CBMI 2025](http://www.cbmi2025.org/), The 22nd International Conference on Content-based Multimedia Indexing, Dublin, Ireland. |
+| 2025 | Conference | TPC co-Chair | [AICS 2025](https://aicsconf.org/), 33rd International Conference on Artificial Intelligence and Cognitive Science, Dublin, Ireland. |
 | 2023 | Conference | Local co-Chair, [ECIR 2023](http://www.ecir2023.org/), The 45th European Conference on Information Retrieval, Dublin, Ireland. |
 | 2026 | Workshop | Co-Organiser, NTCIR-19 CAMEO: Composed Access to Multimodal E-commerce Objects. |
 | 2026 | Workshop | Co-Organiser, [NTCIR-19 Lifelog](http://ntcir-lifelog.computing.dcu.ie/) collaborative benchmarking exercises. |
@@ -39,11 +40,12 @@ template="plain.html"
 | 2024 | Workshop | Co-Organiser, [AIQAM Workshop](https://aiqam.github.io/) at ACM ICMR 2024. |
 | 2023 | Workshop | Co-Organiser, [NTCIR-17 Lifelog](http://ntcir-lifelog.computing.dcu.ie/) collaborative benchmarking exercises. |
 
-### Teaching Activites
+### Teaching Activities
 
 | | | | | |
 |----|----|----|----|----|
 | Fall 2025 | DCU | Module Coordinator | Lecture | CSC1009: Digital World |
+| Fall 2025 | University of Bergen | External Examiner | Examining | Undergraduate's Project in MIX204 - Design for Media Use |
 | Spring 2025 | DCU | Module Coordinator | Lecture | CSC1063: Managing Enterprise Computer Systems |
 | Spring 2024 | DCU | Module Coordinator | Lecture | CA114: Managing Enterprise Computer Systems |
 | Fall 2023 | DCU | Joint-coordinator | Lecture | CA4025: Application Domains 3 |

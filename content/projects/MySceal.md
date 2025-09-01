@@ -1,6 +1,6 @@
 +++
 title = "MyScéal"
-description = "Winners of the Lifelog Search Challenges 2020-2022"
+description = "Retrieval System: Winners of the Lifelog Search Challenges 2020-2022"
 weight = 2
 template="plain.html"
 date = "2023-10-01"

@@ -1,6 +1,6 @@
 +++
 title = "The Eternal Memory"
-description = "A virtual reality reminiscence experience that integrates lifelog data with the arts."
+description = "Art: A virtual reality reminiscence experience that integrates lifelog data with the arts."
 weight = 3
 template="plain.html"
 date = "2021-10-01"

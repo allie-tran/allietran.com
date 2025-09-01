@@ -1,6 +1,6 @@
 +++
 title = "MyEachtra"
-description = "Mobile-First Lifelog Search Engine"
+description = "Retrieval System: Mobile-First Lifelog Search Engine"
 weight = 1
 template="plain.html"
 date = "2025-06-30"
