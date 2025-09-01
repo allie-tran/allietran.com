@@ -15,6 +15,13 @@ This is a pilot task on Composed Access to Multimodal E-commerce Objects (CAMEO)
     Your browser does not support the video tag.
 </video>
 
+### Dataset Exploration Tool
+
+[Explore the ViEcom-Rec dataset](https://mysceal.computing.dcu.ie/cameo/).
+This tool allows you to interactively explore the dataset, view product details, reviews, and other relevant information to better understand the data you'll be working with.
+
+### Overview
+
 CAMEO presents two exciting subtasks, each designed to test your innovative solutions:
 
 #### 1. Composed Image Retrieval (CIR)
